@@ -1,3 +1,133 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('https://t.ctcdn.com.br/ecnchwq6CF1h_yeNfAmJCDkp4Z4=/512x288/smart/filters:format(webp)/i349388.jpeg');
+  color: whitesmoke;
+  font-family: DM Sans , sans-serif;
+  overflow-x: hidden;
+}
+
+.header {
+  align-items: center;
+  background-color: rgba(156, 153, 153, 0.379);
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 100px;
+  letter-spacing: 10px;
+}
+
+.title {
+  background-color: rgba(156, 153, 153, 0.379);
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  display: flex;
+  font-size: 24px;
+  letter-spacing: 5px;
+  margin: 150px auto 100px;
+  padding: 30px 180px;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.planets_container {
+  align-items: flex-end;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+}
+
+.planet_card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: -50px;
+}
+
+.planet_img {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* .planet_img:hover {
+  -webkit-transform: rotateZ(-360deg) scale(1.5);
+  transform: rotateZ(-360deg) scale(1.5);
+} */
+
+.planet_name {
+  background-color: rgba(156, 153, 153, 0.379);
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  padding: 7px;
+}
+
+.Mercúrio {
+  height: 72px;
+  width: 96px;
+}
+
+.Vênus {
+  height: 180px;
+  width: 240px;
+}
+
+img {
+  height: 140px;
+  width: 200px;
+}
+
+.Marte {
+  height: 144px;
+  width: 192px;
+}
+
+.Saturno {
+  height: 240px;
+  width: 320px;
+}
+
+.Urano {
+  height: 240px;
+  width: 320px;
+}
+
+.Netuno {
+  height: 240px;
+  width: 320px;
+}
+
+.mission_container {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+
+.mission_card {
+  background-color: rgba(156, 153, 153, 0.379);
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  display: inline-block;
+  height: auto;
+  margin: 10px;
+  padding: 12px;
+  width: 300px;
+}
+
+.mission_name {
+  background-color: rgba(0, 0, 0, 0.322);
+  border: 2px solid whitesmoke;
+  border-radius: 7px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  padding: 8px;
   text-align: center;
 }
