@@ -1,13 +1,27 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Projeto Solar System 
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Este repositório contém o projeto Solar System desenvolvido por [Renan Pinto](https://www.linkedin.com/in/renan-npinto/) enquanto estudava na [Trybe](https://www.betrybe.com/) no módulo de Front-end.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## Descrição
+
+O projeto apresentada uma listagem dos planetas e as mais importantes missões espaciais realizadas. Possuiu como objetivo desenvolver uma aplicação em React com criação de componentes de classe e passagem de props
+
+Habilidades desenvolvidas
+
+- Utilizar JSX no React;
+- Utilizar corretamente o método render() para renderizar seus componentes;
+- Utilizar import para trazer componentes em diferentes arquivos;
+- Criar componentes de classe em React;
+- Criar múltiplos componentes a partir de um array;
+- Fazer uso de props corretamente;
+- Fazer uso de PropTypes para validar as props de um componente.
+- Fazer toda estilização pegando como exemplo o modelo apresentado no Figma.
+
+## Para fazer as instalações:
+```bash
+npm install
+```
+Rodando a aplicação:
+```bash
+npm start
+```
