@@ -4,7 +4,7 @@ Este repositório contém o projeto Solar System desenvolvido por [Renan Pinto](
 
 ## Descrição
 
-O projeto apresentada uma listagem dos planetas e as mais importantes missões espaciais realizadas. Possuiu como objetivo desenvolver uma aplicação em React com criação de componentes de classe e passagem de props
+O projeto apresenta uma listagem dos planetas e as mais importantes missões espaciais realizadas. Possuiu como objetivo desenvolver uma aplicação em React com criação de componentes de classe e passagem de props.
 
 Habilidades desenvolvidas
 
